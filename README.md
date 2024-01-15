@@ -72,25 +72,15 @@ At this point I was curious if the models would be able to differentiate the exe
     - RandomForest 91%
     - XGBoost 92%
 
-<div style="display:flex; justify-content:center; align-items:center;">
-  <div style="text-align:center; margin-right:20px;">
-    <img src="images/RFC_P1a.png" alt="RandomForest Confusion Matrix" width="400" height="400">
-    <br>
-    <strong style="display:block; margin-top:10px;">RandomForest Confusion Matrix</strong>
-  </div>
+<p float="left">
+<img src="images/RFC_P1a.png" alt="RandomForest Confusion Matrix" width="300" height="300">
+<img src="images/SVM_P1a.png" alt="SVM Confusion Matrix" width="300" height="300">
+<img src="images/XGB_P1a.png" alt="XGBoost Confusion Matrix" width="300" height="300">
 
-  <div style="text-align:center; margin-right:20px;">
-    <img src="images/SVM_P1a.png" alt="SVM Confusion Matrix" width="400" height="400">
-    <br>
-    <strong style="display:block; margin-top:10px;">SVM Confusion Matrix</strong>
-  </div>
+Images above are RandomForest Confusion Matrix, SVM Confusion Matrix and XGBoost Confusion Matrix, in that order
+</p>
 
-  <div style="text-align:center;">
-    <img src="images/XGB_P1a.png" alt="XGBoost Confusion Matrix" width="400" height="400">
-    <br>
-    <strong style="display:block; margin-top:10px;">XGBoost Confusion Matrix</strong>
-  </div>
-</div>
+
 
 <br>
 One thing that I found interesting while I was working through this project was taking a look at which exercises were being predicted incorrectly most often and which exercises they were being labelled as. For example in the above confusion matrices you can see that for the RandomForest and SVM models, crunches were being mislabelled as bicep curls. When you graph the Euler angles for each of the exercises, there are clearly many differences. These differences can be attributed to things such as, which arm the watch is being worn on, the orientation of the watch, or if the watch is starting to slide around the side of the wrist. That being said, if you compare the graphs for a sample of the exercise that is being mislabelled to the exercise it is being mislabelled for, you can also see many similarities and it is easy to see why there might be some confusion. See plots below. 
