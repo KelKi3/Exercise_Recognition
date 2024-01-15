@@ -73,9 +73,9 @@ At this point I was curious if the models would be able to differentiate the exe
     - XGBoost 92%
 
 <p float="left">
-<img src="images/RFC_P1a.png" alt="RandomForest Confusion Matrix" width="200" height="200">
-<img src="images/SVM_P1a.png" alt="SVM Confusion Matrix" width="200" height="200">
-<img src="images/XGB_P1a.png" alt="XGBoost Confusion Matrix" width="200" height="200">
+<img src="images/RFC_P1a.png" alt="RandomForest Confusion Matrix" width="250" height="250">
+<img src="images/SVM_P1a.png" alt="SVM Confusion Matrix" width="250" height="250">
+<img src="images/XGB_P1a.png" alt="XGBoost Confusion Matrix" width="250" height="250">
 
 Images above are RandomForest Confusion Matrix, SVM Confusion Matrix and XGBoost Confusion Matrix, in that order
 </p>
