@@ -88,15 +88,19 @@ One thing that I found interesting while I was working through this project was 
 <br>
 
 <p align="center">
-  <img src="images/crunches_euler.png" alt="RandomForest Confusion Matrix" width="1170" height="250">
+  <img src="images/crunches_euler.png" alt="Crunches" width="1170" height="200">
 </p>
 <p align="center">
-  <img src="images/bicepcurl_euler.png" alt="RandomForest Confusion Matrix" width="1170" height="250">
+  <img src="images/bicepcurl_euler.png" alt="Bicep Curls" width="1170" height="200">
 </p>
 
 ### Part 2 
 
-For the second part of my project I started to look into whether a model could predict the exercises based on only one repetition of the movement. I decided to use a sequential neural network with an LSTM layer to try to accomplish this. After more hour than I can count, playing with parameters and different layers, I managed to come up with a model capable of predicting the exercises with accuracy in the high 90s. 
+For the second part of my project I started to look into whether a model could predict the exercises based on only one repetition of the movement. I decided to use a sequential neural network with an LSTM layer to try to accomplish this. After more hours than I can count, playing with parameters and different layers, I managed to come up with a model capable of predicting the exercises with anaccuracy pf 98%. 
+
+<p align="center">
+  <img src="images/hypertuning_model.png" alt="Hyperparameter Tuning Model" width="1170" height="300">
+</p>
 
 ### Moving Forward
 
