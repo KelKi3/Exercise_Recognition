@@ -88,10 +88,10 @@ One thing that I found interesting while I was working through this project was 
 <br>
 
 <p align="center">
-  <img src="images/crunches_euler.png" alt="RandomForest Confusion Matrix" width="5000" height="400">
+  <img src="images/crunches_euler.png" alt="RandomForest Confusion Matrix" width="1170" height="250">
 </p>
 <p align="center">
-  <img src="images/bicepcurl_euler.png" alt="RandomForest Confusion Matrix" width="5000" height="400">
+  <img src="images/bicepcurl_euler.png" alt="RandomForest Confusion Matrix" width="1170" height="250">
 </p>
 
 ### Part 2 
