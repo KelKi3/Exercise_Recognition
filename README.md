@@ -9,7 +9,7 @@
 
 ## Introduction
 
-This project focuses on devoping models for predicting specific exercises and movements based off of data readings from an Inertial Measurement Unit (IMU) contained in a wearable device. IMU sensors capture information about acceleration, angular velocity, and sometimes magnetic fields, providing valuable insights into the motion and orientation of the device.
+This project focuses on developing models for predicting specific exercises and movements based off of data readings from an Inertial Measurement Unit (IMU) contained in a wearable device. IMU sensors capture information about acceleration, angular velocity, and sometimes magnetic fields, providing valuable insights into the motion and orientation of the device.
 
 ## Project Structure
 
